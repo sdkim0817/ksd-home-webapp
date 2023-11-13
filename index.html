@@ -1,44 +1,113 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Azure App Service - Sample Static HTML Site</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  </head>
-
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-          <h1>Azure App Service - Sample Static HTML Site</h1>
-          <hr/>
-      </div>
-    </div>
-
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-
-    <div class="container">
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>KSD's Home</title>
+    </head>
+    <body>
+        <header>
+            <h1>Cloud Computing</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#week1">Week 1</a></li>
+                <li><a href="#week2">Week 2</a></li>
+                <li><a href="#week3">Week 3</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <hr>
         
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <img class="img-rectangle" src="img/azure-portal.png" alt="Azure App Service Web Apps" height="140">
-          <h2>Azure App Service Web Apps</h2>
-          <p>App Service Web Apps is a fully managed compute platform that is optimized for hosting websites and web applications. This platform-as-a-service (PaaS) offering of Microsoft Azure lets you focus on your business logic while Azure takes care of the infrastructure to run and scale your apps.</p>
-        </div>
-      </div>
-    </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+        <main>
+            <!--div style="margin: 30px 100px; padding: 20px 30px">
+                <img src="balloon.png" alt="">
+            </!--div-->
+            <section> 
+                <strong>Cloud Computing</strong><br><br>
+                <details>클라우드 컴퓨팅은 컴퓨팅 리소스를 인터넷을 통해 서비스로 사용할 수 있는 주문형 서비스입니다. <br>
+                    기업에서 직접 리소스를 조달하거나 구성, 관리할 필요가 없으며 사용한 만큼만 비용을 지불하면 됩니다.
+                    <summary>
+                        클라우드 컴퓨팅이란
+                    </summary>
+                </details>
+                <details>비용 절감, 관리의 편리성 등
+                    <summary>
+                        장점
+                    </summary>
+                </details>
+            </section>
+            <br><br>
+            <section>
+                <table border="1">
+                    <caption><strong>Weekly Schedule</strong></caption>
+                    <thead><td align="center">Week</td><td align="center">Date</td><td align="center">Contents</td></thead>
+                    <tbody>
+                        <tr align="center">
+                            <td>1</td>
+                            <td>8.28</td>
+                            <td>
+                                <ul>
+                                    <li>강의개요</li>
+                                    <li>AWS 계정 가입</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td>2</td>
+                            <td>9.4</td>
+                            <td>
+                                <ul>
+                                    <li>클라우드 컴퓨팅 소개</li>
+                                    <li>클라우드 컴퓨팅 요소 기술</li>
+                                    <li>클라우드 컴퓨팅 서비스</li>
+                                    <li>클라우드 컴퓨팅 실제 사례</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr align="center">
+                            <td>3</td>
+                            <td>9.11</td>
+                            <td>
+                                <ul>
+                                    <li>AWS Introduction</li>
+                                    <li>AWS Service - Computing</li>
+                                    <li>AWS Service - IAM</li>
+                                    <li>AWS 실습 1 - 계정 보안</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br><br>
+            <hr>
+            <ol>
+                <section id="week1">
+                    <li><strong>Week 1</strong></li>
+                    <ul>
+                        <li><a href="../Syllabus-2023.pptx">강의 개요</a></li>
+                        <li>AWS Freetier 계정 가입</li>
+                    </ul>
+                </section>
+                <hr>
+                <section id="week2">
+                    <li><strong>Week 2</strong></li>
+                    <ul>
+                        <li><a href="intro.pdf">클라우드 컴퓨팅 소개</a></li>
+                        <li><a href="technology.pdf">클라우드 컴퓨팅 요소 기술</a></li>
+                        <li><a href="services.pdf">클라우드 컴퓨팅 서비스</a></li>
+                        <li><a href="examples.pdf">클라우드 컴퓨팅 실제 사례</a></li>
+                    </ul>
+                </section>
+                <hr>
+                <section id="week3">
+                    <li><strong>Week 3</strong></li><br>
+                </section>
+            </ol>
+        </main>
+        <br><hr>
+        <footer>
+            Copyright &copy 2023 by Sung-Dong All Rights Reserved
+        </footer>
+    </body>
 </html>
